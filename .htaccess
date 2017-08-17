@@ -1,4 +1,4 @@
-# Redirect 301 / http://www.projectinsomnia.com/
-ErrorDocument 404 http://www.projectinsomnia.com/
+Redirect 301 / http://www.projectinsomnia.com/
+ErrorDocument 404 index.html
 RewriteEngine On
 RewriteRule ^(.*)$ http://www.projectinsomnia.com/ [R=301]
